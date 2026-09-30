@@ -1,3 +1,12 @@
+> **ARCHIVED — 2026-09-30.** The implementation in this repository was folded
+> into [Wyrd-Flux/veritas](https://github.com/Wyrd-Flux/veritas) as
+> `veritas_demo/evidence/`. Do not depend on this repository.
+>
+> **This provenance record is the reason the repository is retained rather than
+> deleted.** Everything below is still the authoritative account of where the code
+> came from, and Veritas' own `docs/PROVENANCE.md` records the fold that brought
+> it here.
+
 # Source provenance
 
 Extraction date: **2026-09-30**. First public commit: see `git log --reverse`

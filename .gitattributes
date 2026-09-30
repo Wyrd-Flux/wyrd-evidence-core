@@ -1,0 +1,6 @@
+# Normalise line endings: pure Python, no platform-specific data files.
+* text=auto eol=lf
+*.py   text diff=python
+*.md   text
+*.toml text
+LICENSE text

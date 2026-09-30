@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wyrd-evidence-core"
+version = "0.1.0"
+description = "Evidence-strength semantics, relation-set writeback validation, outcome taxonomy, and hash-chained component state."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Wyrd Flux" }]
+license = { text = "Apache-2.0" }
+keywords = ["evidence", "governance", "provenance", "predicates", "audit", "registry"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Quality Assurance",
+]
+
+# Stdlib only. This is deliberate: a governance primitive that cannot be
+# installed cleanly is not a primitive anyone will adopt.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Wyrd-Flux/wyrd-evidence-core"
+Source = "https://github.com/Wyrd-Flux/wyrd-evidence-core"
+
+[tool.setuptools.packages.find]
+include = ["wyrd_evidence_core*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

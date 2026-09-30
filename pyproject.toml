@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "wyrd-evidence-core"
 version = "0.1.0"
-description = "Evidence-strength semantics, relation-set writeback validation, outcome taxonomy, and hash-chained component state."
+description = "ARCHIVED. Folded into Wyrd-Flux/veritas; not an active dependency."
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "Wyrd Flux" }]
@@ -24,7 +24,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/Wyrd-Flux/wyrd-evidence-core"
+Homepage = "https://github.com/Wyrd-Flux/veritas"
+Archived = "https://github.com/Wyrd-Flux/veritas/tree/main/veritas_demo/evidence"
 Source = "https://github.com/Wyrd-Flux/wyrd-evidence-core"
 
 [tool.setuptools.packages.find]
